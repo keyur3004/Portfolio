@@ -1,0 +1,58 @@
+.section__Jobs-styledContent {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #8892b0;
+  }
+  
+  .section__Jobs-styledContent h4 {
+    /* color: white; */
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .section__Jobs-styledContent h5 {
+    font-size: 13px;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    color: #64ffda;
+  }
+  
+  /* .section__Jobs-styledContent h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+  }
+  
+  .section__Jobs-detail::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #64ffda;
+  } */
+  
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 3px;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

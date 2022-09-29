@@ -1,0 +1,26 @@
+.section__Jobs-buttonCompany {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #1B1B1B;
+    outline: none;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 13px;
+    height: 42px;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .section__Jobs-buttonCompany:hover,
+  .section__Jobs-buttonCompany:focus {
+    background-color: #172a45;
+  }
+  
+  .section__Jobs-buttonCompany:hover,
+  .section__Jobs-buttonCompany:active,
+  .section__Jobs-buttonCompany:focus {
+    color: white;
+    outline: 0px;
+  }
+  
