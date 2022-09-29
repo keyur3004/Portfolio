@@ -1,13 +1,3 @@
-<h2 align="center">
-  Portfolio<br/>
-  <a href="https://abhiapatel.netlify.app/" target="_blank">Keyur Trivedi</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme.jpg" />
-</div>
-
-<br/>
-
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [keyur3004](https://github.com/keyur3004/newporpholio). Thanks!
 
 ## Built With
